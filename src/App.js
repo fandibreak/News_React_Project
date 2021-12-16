@@ -10,7 +10,7 @@ import { userContext } from './context/userContext';
 
 function App() {
 
-  const [user, setUser] = useState({ name: "JuanPedro" }) //Llamada a una funcion
+  const [user, setUser] = useState({ name: "" }) //Llamada a una funcion
   // Valor inicial de user vacio o name:"JuanPedro" equivalente a this.state ={ user= ''}
   // devuelve un array con user/objeto y prepara el set del estado =''
   const login = name => setUser({ name }) //Cambia el estado con un nuevo nombre

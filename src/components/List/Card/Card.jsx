@@ -5,19 +5,18 @@ import  "./Card.css";
 export class Card extends Component {
 
   render () {
-    const {abstract}= this.props.news
+    const {title,description,date}= this.props.news
     
   return (
-    <div>
+    <div id="supnews">
         <div id='news'>
-          <h2>Titulo</h2>
-          <p>{abstract}</p>
-          <h2>multimedia</h2>
-          {/* <p>{multimedia[0].url}</p>
-          <img src={multimedia[0].url}/> */}
-          {/* //<img src={newsSport.abstract.multimedia[0].url}/> */}
-          <h2>Aqui Va el Card</h2>
-          <button onClick={this.props.deleteOne} > Borrar Noticia</button>
+          <h3>Titulo</h3>
+          <p>{title}</p>
+          <h3>Description</h3>
+          <p>{description}</p>
+          <h3>Fecha de Publicacion</h3>
+          <p>{date}</p>
+          <button onClick={this.props.deleteOne}>Borrar Noticia</button>
           </div>
     </div>
   );
