@@ -1,0 +1,11 @@
+#news{
+
+    background-color: rgb(155, 222, 224);
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid darkblue;
+    border-radius: 20px;
+     align-items: center;
+}
+
