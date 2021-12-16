@@ -12,7 +12,7 @@ class Header extends Component {
                         ({user,logout}) => user.name? //si..?Aqui utilizo un ternario para mostrar u ocultar el boton logout
                                 //creo un fragment contenedor invisible que no aparece en el Dom inicialmente
                                 <>
-                                <h3>Hola Jalid eres ? {user.name}</h3>
+                                <h3>Bienvenido a SportNews {user.name}</h3>
                                 <button onClick={logout}>Logout</button>
                                 </>
                                 :"" //-->Else
