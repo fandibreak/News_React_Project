@@ -1,0 +1,39 @@
+.navbar {
+    position: static;
+    background-color: #070606ad;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    margin: 5%;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(246, 242, 242);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    color: rgb(16, 16, 17);
+    border: solid 2px;
+    background-color: #00ffff;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+}
