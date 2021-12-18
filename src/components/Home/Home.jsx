@@ -32,7 +32,7 @@ class Home extends Component {
         <input type="text" id="name" name="name" ref={this.name} /><br />
         <input type="submit" />
       </form>
-      <h4>Bienvenido a Home</h4>
+      <h4>Bienvenido a Home de SportNews</h4>
     </div>;
   }
 }

@@ -1,11 +1,13 @@
 import React, { Component, Fragment } from "react";
 import Nav from '../Nav'
 import { userContext } from '../../context/userContext';
+import './Header.css';
+
 
 class Header extends Component {
   render() {
     return (
-    <header>
+    <header className='navbar'>
       <Nav />
       <userContext.Consumer>
                     {   //Me traigo el destructuring ({user,logout}) de la const value de APP.js

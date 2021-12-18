@@ -4,7 +4,11 @@ import  "./Card.css";
 
 export class Card extends Component {
 
+  //Cuando invoque a Render generare una la const {title,description,date}= this.props.news y se la pasare por props al padre/main que a su vez Main se la pasara a Card/hijo
+  
+
   render () {
+
     const {title,description,date}= this.props.news
     
   return (
