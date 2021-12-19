@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { userContext } from '../../context/userContext';
+import './Home.css'
 
 
 class Home extends Component {
@@ -27,12 +28,12 @@ class Home extends Component {
 
   render() {
     return <div>
+      <h4>Estas en la Home de SportNews</h4>
       <form onSubmit={this.handleSubmit}>
-        <label htmlFor="name">Nombre:</label><br />
+        <label htmlFor="name">Nombre:</label><br /><br />
         <input type="text" id="name" name="name" ref={this.name} /><br />
-        <input type="submit" />
+        <input type="submit" value="Login" />
       </form>
-      <h4>Bienvenido a Home de SportNews</h4>
     </div>;
   }
 }

@@ -1,6 +1,10 @@
 import React, { Component } from "react";
+import './Nav.css'
+import img from './sky-sports-news-3-logo.png';
 
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+
+
 
 class Nav extends Component {
   render() {
@@ -10,7 +14,6 @@ class Nav extends Component {
         <li><Link to="/form">Form</Link></li>
         <li><Link to="/list">List</Link></li>
       </ul>
-      
     </div>;
   }
 }
