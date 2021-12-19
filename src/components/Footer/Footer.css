@@ -1,8 +1,8 @@
-div#footer {
+#footer {
     width: 100%;
     height: 2.5rem;
     background-color: black;
-    color: #cc1b1b;
+    color: #f3e8e8;
     text-align: center;
     position: fixed;
     padding-top: 6px;
